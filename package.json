@@ -19,5 +19,6 @@
   "homepage": "https://github.com/bahmutov/npm-install-action-example#readme",
   "dependencies": {
     "chalk": "3.0.0"
-  }
+  },
+  "private": true
 }
