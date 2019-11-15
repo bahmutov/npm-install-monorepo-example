@@ -1,7 +1,7 @@
 {
   "name": "npm-install-action-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example for using GitHub Action called npm-install",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
