@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and test
     steps:
-      - name: Checkout
-        uses: actions/checkout@v1
+      - uses: actions/checkout@v1
       - uses: bahmutov/npm-install@v1
-      - run: node .
+      - run: npm t
