@@ -1,5 +1,5 @@
-# npm-install-action-example
-> Example for using GitHub Action called npm-install
+# npm-install-monorepo-example
+> Using npm-install GitHub Action to install packages in different subfolders
 
 See [bahmutov/npm-install](https://github.com/bahmutov/npm-install) and [.github/workflows/main.yml](.github/workflows/main.yml)
 

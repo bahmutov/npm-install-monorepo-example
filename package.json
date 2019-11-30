@@ -1,24 +1,21 @@
 {
-  "name": "npm-install-action-example",
+  "name": "npm-install-monorepo-example",
   "version": "1.0.0",
-  "description": "Example for using GitHub Action called npm-install",
+  "description": "Using npm-install GitHub Action to install packages in different subfolders",
   "main": "index.js",
   "scripts": {
     "test": "node ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bahmutov/npm-install-action-example.git"
+    "url": "git+https://github.com/bahmutov/npm-install-monorepo-example.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bahmutov/npm-install-action-example/issues"
+    "url": "https://github.com/bahmutov/npm-install-monorepo-example/issues"
   },
-  "homepage": "https://github.com/bahmutov/npm-install-action-example#readme",
-  "dependencies": {
-    "chalk": "3.0.0"
-  },
+  "homepage": "https://github.com/bahmutov/npm-install-monorepo-example#readme",
   "private": true
 }
