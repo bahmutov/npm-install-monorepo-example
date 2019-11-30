@@ -7,5 +7,10 @@ jobs:
     name: Build and test
     steps:
       - uses: actions/checkout@v1
+      # Install app1
       - uses: bahmutov/npm-install@v1
-      - run: npm t
+        with:
+          working-directory: app1
+      - name: App1 tests
+        run: npm t
+        working-directory: app1
