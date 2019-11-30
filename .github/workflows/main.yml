@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       # Install app1
-      - uses: bahmutov/npm-install@bd0f18d
+      - uses: bahmutov/npm-install@645c62e
         with:
           working-directory: app1
       - name: App1 tests
