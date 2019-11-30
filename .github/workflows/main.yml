@@ -11,6 +11,14 @@ jobs:
       - uses: bahmutov/npm-install@645c62e
         with:
           working-directory: app1
+      # Install app2
+      - uses: bahmutov/npm-install@645c62e
+        with:
+          working-directory: app2
+
       - name: App1 tests
         run: npm t
         working-directory: app1
+      - name: Run app2
+        run: node .
+        working-directory: app2
